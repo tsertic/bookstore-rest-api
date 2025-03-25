@@ -1,0 +1,18 @@
+bookstore-api/
+│
+├── src/                    # Source code
+│   ├── config/             # Configuration files
+│   ├── controllers/        # Request handlers
+│   ├── middleware/         # Custom middleware
+│   ├── models/             # Database models
+│   ├── routes/             # API routes
+│   ├── services/           # Business logic
+│   ├── utils/              # Utility functions
+│   ├── interfaces/         # TypeScript interfaces
+│   └── app.ts              # Express app setup
+│
+├── dist/                   # Compiled JavaScript
+├── tsconfig.json           # TypeScript configuration
+├── .env                    # Environment variables
+├── .gitignore              # Git ignore file
+└── package.json            # Project metadata
