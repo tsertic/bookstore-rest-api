@@ -1,0 +1,12 @@
+### Test Root Endpoint
+GET http://localhost:3000/ HTTP/1.1
+Accept: application/json
+
+### Test Root Endpoint (Alternative Port)
+GET http://localhost:8080/ HTTP/1.1
+Accept: application/json
+
+### Test Root Endpoint (Production URL)
+# Replace with your actual production URL when deployed
+GET https://your-bookstore-api.com/ HTTP/1.1
+Accept: application/json

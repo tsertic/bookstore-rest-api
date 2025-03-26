@@ -1,5 +1,8 @@
 import app from "./app";
 import config from "./config/config";
+import connectDB from "./config/database";
+//Connect to DB
+connectDB();
 
 //Start Express server
 const server = app.listen(config.port, () => {
