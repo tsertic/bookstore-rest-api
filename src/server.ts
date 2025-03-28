@@ -1,6 +1,10 @@
 import app from "./app";
 import config from "./config/config";
 import connectDB from "./config/database";
+
+//load interfaces
+import "./interfaces";
+
 //Connect to DB
 connectDB();
 
