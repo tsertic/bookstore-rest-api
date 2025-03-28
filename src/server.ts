@@ -4,7 +4,8 @@ import connectDB from "./config/database";
 
 //load interfaces
 import "./interfaces";
-
+// Load models
+import "./models";
 //Connect to DB
 connectDB();
 
